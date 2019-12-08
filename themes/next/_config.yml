@@ -181,7 +181,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/feng-jin || github
+  GitHub: https://github.com/feng-jin/myBlog || github
   E-Mail: mailto:jin_feng0127@126.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
@@ -391,7 +391,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: true
-  permalink: https://github.com/feng-jin
+  permalink: https://github.com/feng-jin/myBlog
   title: Follow me on GitHub
 
 
