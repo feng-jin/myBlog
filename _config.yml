@@ -4,18 +4,18 @@
 
 # Site
 title: 我有一个胖大肚
-subtitle: ''
-description: ''
-keywords:
+subtitle: '金锋个人博客'
+description: '金锋个人博客，自学机器学习，自学算法之路，包括传统机器学习、深度学习、强化学习，以及数据结构与算法等。'
+keywords: ['算法','自学机器学习','算法学习之路']
 author: 金锋
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.pangdadu.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing index.html from permalinks
@@ -104,3 +104,9 @@ search:
   field: post
   format: html
   limit: 10000
+
+# 自动生成sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
