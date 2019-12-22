@@ -201,12 +201,13 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: link
-  title: Links
+  title: 友情链接
   # Available values: block | inline
   layout: block
 
 links:
-    #  Title: http://www.pangdadu.com
+    #我有一个胖大肚: http://www.pangdadu.com/
+    #百度: https://www.baidu.com/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
