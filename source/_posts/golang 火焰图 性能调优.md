@@ -9,7 +9,7 @@ category:
 
 # 安装
 
-```shell
+```bash
 # 安装go-torch
 go get github.com/uber/go-torch
 
@@ -38,7 +38,7 @@ func main() {
 ```
 
 # 查看结果
-```shell
+```bash
 # 生成CPU火焰图
 go-torch -u http://localhost:20020/debug/pprof -t 30
 
