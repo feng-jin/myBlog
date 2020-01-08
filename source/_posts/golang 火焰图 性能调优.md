@@ -46,4 +46,6 @@ go-torch -u http://localhost:20020/debug/pprof -t 30
 go-torch -u http://localhost:20020/debug/pprof/heap -t 30
 ```
 
-会生成一个svg文件，用文件用浏览器打开即可看到火焰图。
+注意，这里的go-torch，是到go-torch文件夹进行go build后得到的可执行文件。
+
+最后，会生成一个svg文件，用文件用浏览器打开即可看到火焰图。
